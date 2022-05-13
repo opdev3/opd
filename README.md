@@ -10,6 +10,7 @@
 <br />
 
 [![license](https://img.shields.io/github/license/dec0dOS/amazing-github-template.svg?style=flat-square)](LICENSE)
+![version](https://img.shields.io/badge/build%20version-0.7-orange)
 
 </div>
 
@@ -23,9 +24,10 @@ A P2P lending and borrowing service on Tezos network
 
 The functionality of this service consists of three steps:
 
-1. **Borrow.** Create a borrow request by providing the necessary information, like the choice of a token you want to borrow ( = the reward token), the number of tokens to borrow, the number of tokens as collateral and the reward, time (loan term). There is an optional field *"Deadline"* for liquidation of the request if it wasn't accepted by a creditor.
-2. **Lend.** View borrowing requests from other users and lend requested tokens.
-3. **Deals.** View and repay existing deals - both borrowings and lendings
+1. **Log in.** Enter the system with your wallet.
+2. **Borrow.** Create a borrow request by providing the necessary information, like the choice of a token you want to borrow ( = the reward token), the number of tokens to borrow, the number of tokens as collateral and the reward, time (loan term). There is an optional field *"Deadline"* for liquidation of the request if it wasn't accepted by a creditor.
+3. **Lend.** View borrowing requests from other users and lend requested tokens.
+4. **Deals.** View and repay existing deals - both borrowings and lendings
 
 
 ---
