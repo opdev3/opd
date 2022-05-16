@@ -17,17 +17,26 @@
 
 
 # OPD 0.7
-A P2P lending and borrowing service on Tezos network
+This project is intended to provide an easy and efficient way to lend and/or borrow tokens and XTZ on [Tezos blockchain](https://tezos.com). This version allows users to use only XTZ as collateral 
+
+The current implementation supports FA1.2
+
 
 ---
 
 
-The functionality of this service consists of three steps:
+The functionality of this service consists of several simple steps:
 
-1. **Log in.** Enter the system with your wallet.
-2. **Borrow.** Create a borrow request by providing the necessary information, like the choice of a token you want to borrow ( = the reward token), the number of tokens to borrow, the number of tokens as collateral and the reward, time (loan term). There is an optional field *"Deadline"* for liquidation of the request if it wasn't accepted by a creditor.
-3. **Lend.** View borrowing requests from other users and lend requested tokens.
-4. **Deals.** View and repay existing deals - both borrowings and lendings
+
+1. `Log In` Enter the system with your wallet. 
+2. `Borrow.` Create a borrow request by providing the necessary information, like the choice of a token you want to borrow ( = the reward token), the number of tokens to borrow, the number of tokens as collateral and the reward, time (loan term). There is an optional field *"Deadline"* for liquidation of the request if it wasn't accepted by a creditor:
+- **Loan.** Select a token from the select list.
+- **Reward.** Paid in selected token (Loan).
+- **Colateral.** Tezos XTZ as a default in this version.
+- **Loan Term.** For how long will be the loan taken.
+- **Deadline.** Optional field. Loan request termination date. 
+3. `Lend.` View borrowing requests from other users and lend requested tokens.
+4. `Deals.` View and repay existing deals - both borrowings and lendings
 
 
 ---
