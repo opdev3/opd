@@ -43,3 +43,9 @@ The functionality of this service consists of several simple steps:
 
 ## License
 This project is licensed under the MIT license.
+
+---
+
+## No Further Development. 
+The development team behind the project (the OPD team) represents and warrants that it has terminated all development efforts and activities related to this version of the protocol (0.7). The OPD team further warrants that it will not undertake additional development work related to the existing technology, existing software, improvements, new technology or new software in this project. 
+Next versions of the protocol will be published as new projects or repositories.
