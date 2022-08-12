@@ -16,7 +16,7 @@
 
 
 
-# OPD 0.7
+# OPD 0.71
 This project is intended to provide an easy and efficient way to lend and/or borrow tokens and XTZ on [Tezos blockchain](https://tezos.com). This version allows users to use only XTZ as collateral 
 
 The current implementation supports FA1.2
