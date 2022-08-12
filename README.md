@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://github.com/dec0dOS/amazing-github-template">
+  <a href="https://opusdei.money/">
     <img src="https://opusdei.money/img/logo.svg" alt="Logo" width="85" height="85">
   </a>
 </h1>
