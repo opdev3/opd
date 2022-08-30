@@ -61,7 +61,7 @@ class Opus(sp.Contract):
             # map of credit deals (key is credit deal ID)
             deals = sp.big_map(),
 
-            # amount of blocked collateral
+            # amount of locked collateral
             deposits = sp.mutez(0)
         )
 
@@ -73,7 +73,7 @@ class Opus(sp.Contract):
         pass
 
 
-    # (Admins only) Transfer tezos (except blocked collateral) from the contract address.
+    # (Admins only) Transfer tezos (except locked collateral) from the contract address.
     # @params.address – destination address
     # @params.amount – tezos amount
     #
