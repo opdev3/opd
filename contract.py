@@ -518,3 +518,5 @@ def test():
     c1.withdraw(address=admin.address, amount=INITIAL_BALANCE).run(sender = admin)
     scenario.verify(c1.balance >= c1.data.deposits)
 
+
+sp.add_compilation_target("opus", Opus("tz1fE6hEiRFa9ZHJeZrccNKsGW7jdxfe9vcv"))
