@@ -23,8 +23,8 @@
 </header>
 <section id="section-intro">
 <p>This project is intended to provide an easy and efficient way to lend and/or borrow tokens and XTZ on Tezos blockchain.</p>
-<p>This version allows users to use only XTZ as collateral.
-The current implementation supports FA1.2.</p>
+<p>This version allows users to use only XTZ as collateral. The current implementation supports FA1.2.</p>
+<p><small>Built with SmartPy 0.11.1</small></p>
 <details class="source">
 <summary>
 <span>Expand source code</span>
@@ -32,8 +32,9 @@ The current implementation supports FA1.2.</p>
 <pre><code class="python">&#34;&#34;&#34;
 This project is intended to provide an easy and efficient way to lend and/or borrow tokens and XTZ on Tezos blockchain.
 
-This version allows users to use only XTZ as collateral.
-The current implementation supports FA1.2.
+This version allows users to use only XTZ as collateral. The current implementation supports FA1.2.
+
+&lt;small&gt;Built with SmartPy 0.11.1&lt;/small&gt;
 &#34;&#34;&#34;
 
 import smartpy as sp
@@ -57,7 +58,23 @@ class Error:
 
 
 class Opus(sp.Contract):
-    &#34;&#34;&#34;The contract is a storage for p2p credit deals and provides service functionality to make such deals.&#34;&#34;&#34;
+    &#34;&#34;&#34;The contract is a storage for p2p credit deals and provides service functionality to make such deals.
+    
+    There is the storage:
+    Args:
+        pause (bool): indicates that making of credit deals is disabled
+        baker (option): baker address or _None_
+        admins (set): list of admin addresses
+        tokens (big_map): supported tokens (list of pairs: token name and token address)
+        time (pair): time bounds for credit deals
+        min_deposit (mutez): minimum deposit value
+        fee (nat): service fee (APY) in basis points
+        nloan (nat): last loan request ID
+        ndeal (nat): last credit deal ID
+        loans (big_map): map of loan requests (key is loan request ID)
+        deals (big_map): map of credit deals (key is credit deal ID)
+        deposits (mutez): amount of locked collateral
+    &#34;&#34;&#34;
 
     def __init__(self, creator):
         self.creator = creator
@@ -97,7 +114,7 @@ class Opus(sp.Contract):
             # map of credit deals (key is credit deal ID)
             deals = sp.big_map(),
 
-            # amount of blocked collateral
+            # amount of locked collateral
             deposits = sp.mutez(0)
         )
 
@@ -110,7 +127,7 @@ class Opus(sp.Contract):
 
     @sp.entry_point
     def withdraw(self, params):
-        &#34;&#34;&#34;(Admins only) Transfer tezos (except blocked collateral) from the contract address.
+        &#34;&#34;&#34;(Admins only) Transfer tezos (except locked collateral) from the contract address.
         
         Args:
             address (address): destination address
@@ -672,13 +689,57 @@ def test():
 <span>(</span><span>creator)</span>
 </code></dt>
 <dd>
-<div class="desc"><p>The contract is a storage for p2p credit deals and provides service functionality to make such deals.</p></div>
+<div class="desc"><p>The contract is a storage for p2p credit deals and provides service functionality to make such deals.</p>
+<p>There is the storage:</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>pause</code></strong> :&ensp;<code>bool</code></dt>
+<dd>indicates that making of credit deals is disabled</dd>
+<dt><strong><code>baker</code></strong> :&ensp;<code>option</code></dt>
+<dd>baker address or <em>None</em></dd>
+<dt><strong><code>admins</code></strong> :&ensp;<code>set</code></dt>
+<dd>list of admin addresses</dd>
+<dt><strong><code>tokens</code></strong> :&ensp;<code>big_map</code></dt>
+<dd>supported tokens (list of pairs: token name and token address)</dd>
+<dt><strong><code>time</code></strong> :&ensp;<code>pair</code></dt>
+<dd>time bounds for credit deals</dd>
+<dt><strong><code>min_deposit</code></strong> :&ensp;<code>mutez</code></dt>
+<dd>minimum deposit value</dd>
+<dt><strong><code>fee</code></strong> :&ensp;<code>nat</code></dt>
+<dd>service fee (APY) in basis points</dd>
+<dt><strong><code>nloan</code></strong> :&ensp;<code>nat</code></dt>
+<dd>last loan request ID</dd>
+<dt><strong><code>ndeal</code></strong> :&ensp;<code>nat</code></dt>
+<dd>last credit deal ID</dd>
+<dt><strong><code>loans</code></strong> :&ensp;<code>big_map</code></dt>
+<dd>map of loan requests (key is loan request ID)</dd>
+<dt><strong><code>deals</code></strong> :&ensp;<code>big_map</code></dt>
+<dd>map of credit deals (key is credit deal ID)</dd>
+<dt><strong><code>deposits</code></strong> :&ensp;<code>mutez</code></dt>
+<dd>amount of locked collateral</dd>
+</dl></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">class Opus(sp.Contract):
-    &#34;&#34;&#34;The contract is a storage for p2p credit deals and provides service functionality to make such deals.&#34;&#34;&#34;
+    &#34;&#34;&#34;The contract is a storage for p2p credit deals and provides service functionality to make such deals.
+    
+    There is the storage:
+    Args:
+        pause (bool): indicates that making of credit deals is disabled
+        baker (option): baker address or _None_
+        admins (set): list of admin addresses
+        tokens (big_map): supported tokens (list of pairs: token name and token address)
+        time (pair): time bounds for credit deals
+        min_deposit (mutez): minimum deposit value
+        fee (nat): service fee (APY) in basis points
+        nloan (nat): last loan request ID
+        ndeal (nat): last credit deal ID
+        loans (big_map): map of loan requests (key is loan request ID)
+        deals (big_map): map of credit deals (key is credit deal ID)
+        deposits (mutez): amount of locked collateral
+    &#34;&#34;&#34;
 
     def __init__(self, creator):
         self.creator = creator
@@ -718,7 +779,7 @@ def test():
             # map of credit deals (key is credit deal ID)
             deals = sp.big_map(),
 
-            # amount of blocked collateral
+            # amount of locked collateral
             deposits = sp.mutez(0)
         )
 
@@ -731,7 +792,7 @@ def test():
 
     @sp.entry_point
     def withdraw(self, params):
-        &#34;&#34;&#34;(Admins only) Transfer tezos (except blocked collateral) from the contract address.
+        &#34;&#34;&#34;(Admins only) Transfer tezos (except locked collateral) from the contract address.
         
         Args:
             address (address): destination address
@@ -1070,7 +1131,7 @@ def default(self):
 <span>def <span class="ident">withdraw</span></span>(<span>self, params)</span>
 </code></dt>
 <dd>
-<div class="desc"><p><em>Entrypoint</em>. (Admins only) Transfer tezos (except blocked collateral) from the contract address.</p>
+<div class="desc"><p><em>Entrypoint</em>. (Admins only) Transfer tezos (except locked collateral) from the contract address.</p>
 <h2 id="args">Args</h2>
 <dl>
 <dt><strong><code>address</code></strong> :&ensp;<code>address</code></dt>
@@ -1086,7 +1147,7 @@ def default(self):
 </summary>
 <pre><code class="python">@sp.entry_point
 def withdraw(self, params):
-    &#34;&#34;&#34;(Admins only) Transfer tezos (except blocked collateral) from the contract address.
+    &#34;&#34;&#34;(Admins only) Transfer tezos (except locked collateral) from the contract address.
     
     Args:
         address (address): destination address
