@@ -99,14 +99,14 @@ The functionality of this version consists of several simple steps:
 ---
 
 ## Glossary
-| Command | Description |
+| Term | Description |
 | --- | --- |
-| XTZ | The native cryptocurrency for the Tezos blockchain. Also known as Tez or  tezzie. |
+| APY | Annual Percentage Yield. The rate to earn on an account over a year and it includes compound interest. |
+| FA1.2 | FA1.2 refers to an [ERC20](https://eips.ethereum.org/EIPS/eip-20)-like fungible token standard (TZIP-7) for Tezos. At its core, FA1.2 contains a ledger which maps identities to token balances, providing a standard API for token transfer operations, as well as providing approval to external contracts (e.g. an auction) or accounts to transfer a user's tokens. The FA1.2 specification is described in details in [TZIP-7](https://gitlab.com/tezos/tzip/-/blob/master/proposals/tzip-7/tzip-7.md). |
 | P2P | Peer-to-Peer. Relating to, using, or being a network by which computers operated by individuals can share information and resources directly without relying on a dedicated central server. |
 | P2P Lending | Peer-to-peer lending networks consist of two or more computers that interact to communicate, share data, and provide lending services without the need for a central server. The P2P lending networks of yesterday are beginning to integrate with blockchain-based smart contracts, contributing to the evolution of decentralized finance (DeFi). The resulting networks facilitate trustless transactions that lower costs and save time by removing intermediaries. Peer-to-peer lending has become a significant subset of the DeFi ecosystem, and its growth is accelerating. |
-| FA1.2 | FA1.2 refers to an [ERC20](https://eips.ethereum.org/EIPS/eip-20)-like fungible token standard (TZIP-7) for Tezos. At its core, FA1.2 contains a ledger which maps identities to token balances, providing a standard API for token transfer operations, as well as providing approval to external contracts (e.g. an auction) or accounts to transfer a user's tokens. The FA1.2 specification is described in details in [TZIP-7](https://gitlab.com/tezos/tzip/-/blob/master/proposals/tzip-7/tzip-7.md). |
-| APY | Annual Percentage Yield. The rate to earn on an account over a year and it includes compound interest. |
 | Smart Contract | A self-executing contract with the terms of the agreement between buyer and seller being directly written into lines of code. The code and the agreements contained therein exist across a distributed, decentralized blockchain network. |
+| XTZ | The native cryptocurrency for the Tezos blockchain. Also known as Tez or  tezzie. |
 
 ---
 
