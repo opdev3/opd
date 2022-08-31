@@ -20,7 +20,7 @@
 Opus Dei Money Protocol (OPD) is a fully decentralised and Open Source peer-to-peer (P2P) service for an easy and efficient way to lend and/or borrow tokens and XTZ built on top of the [Tezos blockchain](https://tezos.com). OPD allows lenders and borrowers to create a P2P lending agreements securely and transparently using Blockchain and Smart Contracts. P2P crypto-to-crypto lending removes the need for banks to be the only available option for borrowing. By placing a loan request on Opus Dei Money Protocol, lenders can fund loan requests by competing to provide the most competitive interest rate. OPD provides transparent and trustless decentralised solutions to avoid loss of capital, making a true global lending market available.
 
 
-## **What is peer to peer crypto lending?**
+## What is peer to peer crypto lending?
 
 Peer-to-peer or P2P crypto lending is a process that lets a user lend cryptocurrencies directly to a borrower who wants to take out a crypto-backed loan.
 
