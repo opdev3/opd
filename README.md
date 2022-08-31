@@ -16,7 +16,7 @@
 
 
 
-# Opus Dei Money Protocol.
+# Opus Dei Money Protocol
 Opus Dei Money Protocol (OPD) is a fully decentralised and Open Source peer-to-peer (P2P) service for an easy and efficient way to lend and/or borrow tokens and XTZ built on top of the [Tezos blockchain](https://tezos.com). OPD allows lenders and borrowers to create a P2P lending agreements securely and transparently using Blockchain and Smart Contracts. P2P crypto-to-crypto lending removes the need for banks to be the only available option for borrowing. By placing a loan request on Opus Dei Money Protocol, lenders can fund loan requests by competing to provide the most competitive interest rate. OPD provides transparent and trustless decentralised solutions to avoid loss of capital, making a true global lending market available.
 
 
@@ -115,6 +115,6 @@ This project is licensed under the MIT license.
 
 ---
 
-## No Further Development. 
+## No Further Development
 The development team behind the project (the OPD team) represents and warrants that it has terminated all development efforts and activities related to this version of the protocol (0.71). The OPD team further warrants that it will not undertake additional development work related to the existing technology, existing software, improvements, new technology or new software in this project. 
 Next versions of the protocol will be published as new projects or repositories.
