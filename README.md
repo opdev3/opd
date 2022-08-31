@@ -34,13 +34,14 @@ P2P crypto lending minimizes the role of the third party (even the platform itse
 
 On a P2P platform, lenders choose the rates, terms and amount they want to fund. That allows for more control over the investment than parking that money in an account that offers a flat APY.
 
+Peer-to-peer lending platforms presage a more inclusive and accessible financial services system.
 
 # OPD 0.71
 This version allows users to use only XTZ as collateral and supports FA1.2 standard tokens
 
 
----
 
+---
 
 The functionality of this version consists of several simple steps:
 
@@ -55,6 +56,48 @@ The functionality of this version consists of several simple steps:
 3. `Lend.` View borrowing requests from other users and lend requested tokens.
 4. `Deals.` View and repay existing deals - both borrowings and lendings
 
+# How it works for lenders
+
+* Enter the service with your Tezos wallet by clicking the Enter App button.
+* Choose your preferred wallet from the list.
+* Approve the permission request from the wallet. 
+* Visit the **Lend** section from the platform’s dashboard for loans to be funded. Select a loan to fund. Check if the loan request reward and collateral are good for you.
+* Make sure the necessary crypto asset is in the wallet.
+* Click on the **Supply** button from the pop-up you see after clicking on a loan row.
+* Approve the permission request from the wallet.
+* Collect the reward together with the asset when the loan is returned. If the borrower fails to repay the loan, you can seize the borrower’s collateral to make up for your losses.
+* **Important!** If the borrower fails to repay the loan, the system will not send you the collateral. You will have to collect the collateral manually! 
+
+# How it works for borrowers
+
+
+* Enter the service with your Tezos wallet by clicking the Enter App button.
+* Choose your preferred wallet from the list.
+* Approve the permission request from the wallet. 
+* Visit the **Borrow** section from the platform’s dashboard to see your active loan requests.
+* **Create a new loan request** by clicking the **+New Request** button.
+* **The Borrow Pop-up**:
+ 1. `Loan` Choose an asset to borrow from the drop-down list.
+ 2. `Enter Amount` Enter the number of tokens you want to borrow.
+ 3. `Reward` Reward token type is chosen automatically with the Loan. Set the reward amount manually. 
+    - **The reward is given to a lender in recognition of their provided liquidity. The higher the reward, the more attractive the request. The Greater the Effort, the Sweeter the Reward**
+ 4. `Collateral` Set the amount of XTZ a lender will get if the loan is not paid in time. Same as the reward affects the attractiveness of your request.
+ 5. `Loan term` Choose the time of your request - how long you want to keep the asset. You can pay it back before the time runs out. If you don't pay it in time, the lender will seize your collateral.
+ 6. `Deadline (optional)` You can set the timing for that request to be active until someone fills it up.
+* Approve the new loan request from the wallet.
+* You will see the loan request from the **Borrow** section. A lender will see it from the **Lend** section as a loan to supply
+
+---
+
+## Glossary
+| Command | Description |
+| --- | --- |
+| XTZ | The native cryptocurrency for the Tezos blockchain. Also known as Tez or  tezzie. |
+| P2P | Peer-to-Peer. Relating to, using, or being a network by which computers operated by individuals can share information and resources directly without relying on a dedicated central server. |
+| P2P Lending | Peer-to-peer lending networks consist of two or more computers that interact to communicate, share data, and provide lending services without the need for a central server. The P2P lending networks of yesterday are beginning to integrate with blockchain-based smart contracts, contributing to the evolution of decentralized finance (DeFi). The resulting networks facilitate trustless transactions that lower costs and save time by removing intermediaries. Peer-to-peer lending has become a significant subset of the DeFi ecosystem, and its growth is accelerating. |
+| FA1.2 | FA1.2 refers to an [ERC20](https://eips.ethereum.org/EIPS/eip-20)-like fungible token standard (TZIP-7) for Tezos. At its core, FA1.2 contains a ledger which maps identities to token balances, providing a standard API for token transfer operations, as well as providing approval to external contracts (e.g. an auction) or accounts to transfer a user's tokens. The FA1.2 specification is described in details in [TZIP-7](https://gitlab.com/tezos/tzip/-/blob/master/proposals/tzip-7/tzip-7.md). |
+| APY | Annual Percentage Yield. The rate to earn on an account over a year and it includes compound interest. |
+| Smart Contract | A self-executing contract with the terms of the agreement between buyer and seller being directly written into lines of code. The code and the agreements contained therein exist across a distributed, decentralized blockchain network. |
 
 ---
 
