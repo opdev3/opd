@@ -51,7 +51,13 @@ Peer-to-peer lending platforms presage a more inclusive and accessible financial
 ---
 
 # OPD 0.71
-This version allows users to use only XTZ as collateral and supports FA1.2 standard tokens
+This version allows users to use only XTZ as collateral and supports FA1.2 standard tokens.
+
+
+1. `Log In` Enter the system with your wallet. 
+2. `Borrow.` Create a borrow request by providing the necessary information, like the choice of a token you want to borrow ( = the reward token), the number of tokens to borrow, the number of tokens as collateral and the reward, time (loan term). There is an optional field *"Deadline"* for liquidation of the request if it wasn't accepted by a creditor.
+3. `Lend.` View borrowing requests from other users and lend requested tokens.
+4. `Deals.` View and repay existing deals - both borrowings and lendings
 
 # How it works for lenders
 
