@@ -21,6 +21,7 @@ Opus Dei Money Protocol (OPD) is a fully decentralised and Open Source peer-to-p
 
 
 **What is peer to peer crypto lending?**
+
 Peer-to-peer or P2P crypto lending is a process that lets a user lend cryptocurrencies directly to a borrower who wants to take out a crypto-backed loan.
 
 P2P crypto lending minimizes the role of the third party (even the platform itself) in the lending and borrowing processes. Rather than funding the loan itself, with the use of P2P platforms, users can:
