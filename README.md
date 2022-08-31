@@ -20,7 +20,7 @@
 Opus Dei Money Protocol (OPD) is a fully decentralised and Open Source peer-to-peer (P2P) service for an easy and efficient way to lend and/or borrow tokens and XTZ built on top of the [Tezos blockchain](https://tezos.com). OPD allows lenders and borrowers to create a P2P lending agreements securely and transparently using Blockchain and Smart Contracts. P2P crypto-to-crypto lending removes the need for banks to be the only available option for borrowing. By placing a loan request on Opus Dei Money Protocol, lenders can fund loan requests by competing to provide the most competitive interest rate. OPD provides transparent and trustless decentralised solutions to avoid loss of capital, making a true global lending market available.
 
 
-## What is peer to peer crypto lending?
+## What is Peer-to-Peer crypto lending?
 
 Peer-to-peer or P2P crypto lending is a process that lets a user lend cryptocurrencies directly to a borrower who wants to take out a crypto-backed loan.
 
@@ -33,6 +33,15 @@ P2P crypto lending minimizes the role of the third party (even the platform itse
 * Offer some kind of insurance to protect the collateral in repayment.
 
 On a P2P platform, lenders choose the rates, terms and amount they want to fund. That allows for more control over the investment than parking that money in an account that offers a flat APY.
+
+## Benefits of Peer-to-Peer lending
+
+* Increased scalability. There are millions of people all over the world with no access to a bank account. At the same time, traditional financial institutions have dramatically lost the trust of consumers. 
+* Faster and more efficient process. The automatic process of matching that takes place makes the whole task of lending very easy and fast. One doesn’t need to wait much as participants from all over the world are present on the platform, increasing the chances of investment and loan. Also, transactions done on the blockchain platform are really quick, especially when compared to traditional financial institutions.
+* Reduced cost: Since the need for a middleman is eradicated, their charges also go away. Also, one doesn’t need to pay sky-rocketing interest rates as they are already fixed by smart contracts based on the risk profile of the borrower.
+* Loan tokenization: The transformation of assets into units that store value is called loan tokenization. It is a pertinent advantage offered by blockchain platforms. Participants can exchange anything, in any currency on a blockchain platform- transparently and securely.
+* Identity protection: Blockchain platforms don’t require you to enter bank details or credit card numbers, protecting your fiat money. Digital money doesn’t ask for details other than the amount of the transaction.
+* Trustless. There is no need to trust the counterparty. When the borrower places the loan request on OPD, the counterparty, OPD or any other party cannot manipulate, stop and prevent the loan request once the loan is deployed. Instead of the need to trust the counterparty, decentralisation removes the necessity to trust your provider and your counterparty.
 
 Peer-to-peer lending platforms presage a more inclusive and accessible financial services system.
 
