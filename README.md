@@ -17,6 +17,7 @@
 
 
 # Opus Dei Money Protocol
+
 Opus Dei Money Protocol (OPD) is a fully decentralised and Open Source peer-to-peer (P2P) service for an easy and efficient way to lend and/or borrow tokens and XTZ built on top of the [Tezos blockchain](https://tezos.com). 
 
 OPD allows lenders and borrowers to create a P2P lending agreements securely and transparently using Blockchain and Smart Contracts. P2P crypto-to-crypto lending removes the need for banks to be the only available option for borrowing. By placing a loan request on Opus Dei Money Protocol, lenders can fund loan requests by competing to provide the most competitive interest rate. OPD provides transparent and trustless decentralised solutions to avoid loss of capital, making a true global lending market available.
@@ -47,25 +48,10 @@ On a P2P platform, lenders choose the rates, terms and amount they want to fund.
 
 Peer-to-peer lending platforms presage a more inclusive and accessible financial services system.
 
-# OPD 0.71
-This version allows users to use only XTZ as collateral and supports FA1.2 standard tokens
-
-
-
 ---
 
-The functionality of this version consists of several simple steps:
-
-
-1. `Log In` Enter the system with your wallet. 
-2. `Borrow.` Create a borrow request by providing the necessary information, like the choice of a token you want to borrow ( = the reward token), the number of tokens to borrow, the number of tokens as collateral and the reward, time (loan term). There is an optional field *"Deadline"* for liquidation of the request if it wasn't accepted by a creditor:
-- **Loan.** Select a token from the select list.
-- **Reward.** Paid in selected token (Loan).
-- **Colateral.** Tezos XTZ as a default in this version.
-- **Loan Term.** For how long will be the loan taken.
-- **Deadline.** Optional field. Loan request termination date. 
-3. `Lend.` View borrowing requests from other users and lend requested tokens.
-4. `Deals.` View and repay existing deals - both borrowings and lendings
+# OPD 0.71
+This version allows users to use only XTZ as collateral and supports FA1.2 standard tokens
 
 # How it works for lenders
 
