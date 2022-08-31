@@ -16,16 +16,18 @@
 
 
 
-# OPD 0.71
-This project is intended to provide an easy and efficient way to lend and/or borrow tokens and XTZ on [Tezos blockchain](https://tezos.com). This version allows users to use only XTZ as collateral 
+# Opus Dei Money Protocol.
+Opus Dei Money Protocol (OPD) is a fully decentralised and Open Source peer to peer (P2P) service for an easy and efficient way to lend and/or borrow tokens and XTZ built on top of the Tezos Network [Tezos blockchain](https://tezos.com). OPD allows lenders and borrowers to create a P2P lending agreements securely and transparently using Blockchain and Smart Contracts. P2P crypto-to-crypto lending removes the need for banks to be the only available option for borrowing. By placing a loan request on Opus Dei Money Protocol, lenders can fund loan requests by competing to provide the most competitive interest rate. OPD provides transparent and trustless decentralised solutions to avoid loss of capital, making a true global lending market available.
 
-The current implementation supports FA1.2
+
+# OPD 0.71
+This version allows users to use only XTZ as collateral and supports FA1.2 standard tokens
 
 
 ---
 
 
-The functionality of this service consists of several simple steps:
+The functionality of this version consists of several simple steps:
 
 
 1. `Log In` Enter the system with your wallet. 
