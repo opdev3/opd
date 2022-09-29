@@ -109,6 +109,11 @@ This project is licensed under the MIT license.
 
 ---
 
+## Audits
+This project is audited by Inference AG. [Link to the report](https://github.com/InferenceAG/ReportPublications/blob/master/Inference%20AG%20-%20OpusDei%20-%20P2P%20lending%20and%20borrowing%20-%20v1.0.pdf).
+
+---
+
 ## No Further Development
 The development team behind the project (the OPD team) represents and warrants that it has terminated all development efforts and activities related to this version of the protocol (0.71). The OPD team further warrants that it will not undertake additional development work related to the existing technology, existing software, improvements, new technology or new software in this project. 
 Next versions of the protocol will be published as new projects or repositories.
