@@ -104,13 +104,13 @@ This version allows users to use only XTZ as collateral and supports FA1.2 stand
 
 ---
 
-## License
-This project is licensed under the MIT license.
+## Audits
+This project is audited by Inference AG. [Link to the report](https://github.com/InferenceAG/ReportPublications/blob/master/Inference%20AG%20-%20OpusDei%20-%20P2P%20lending%20and%20borrowing%20-%20v1.0.pdf).
 
 ---
 
-## Audits
-This project is audited by Inference AG. [Link to the report](https://github.com/InferenceAG/ReportPublications/blob/master/Inference%20AG%20-%20OpusDei%20-%20P2P%20lending%20and%20borrowing%20-%20v1.0.pdf).
+## License
+This project is licensed under the MIT license.
 
 ---
 
